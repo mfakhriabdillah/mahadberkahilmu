@@ -44,27 +44,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
-  - block: cta-image-paragraph
-    id: solutions
-    content:
-      items:
-        - title: Keunggulan
-          text: As easy as 1, 2, 3!
-          feature_icon: check
-          features:
-            - "Talaqqi bacaan al Qur'an sesuai panduan para ulama tajwid"
-            - "Materi pelajaran langsung merujuk pada kitab-kitab turats karya para ulama ahlus-sunnah wal-jama'ah"
-            - "Penekanan dalam adab (etika) pergaulan Islami, dengan harapan santri terlindungi dari pergaulan bebas"
-            - Para pengajar yang berkompeten di bidangnya, lulusan ma'had dan perguruan tinggi Islam
-          # Upload image to `assets/media/` and reference the filename here
-          image: build-website.png
-          button:
-            text: Get Started
-            url: #features
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-- block: features
+  - block: features
     id: features
     content:
       title: Materi Pelajaran
@@ -88,6 +68,39 @@ sections:
         - name: Bahasa Arab
           icon: rectangle-group
           description: Dari kitab al-Mumtaz
+  - block: cta-image-paragraph
+    id: solutions
+    content:
+      items:
+        - title: Keunggulan
+          text: As easy as 1, 2, 3!
+          feature_icon: check
+          features:
+            - "Talaqqi bacaan al Qur'an sesuai panduan para ulama tajwid"
+            - "Materi pelajaran langsung merujuk pada kitab-kitab turats karya para ulama ahlus-sunnah wal-jama'ah"
+            - "Penekanan dalam adab (etika) pergaulan Islami, dengan harapan santri terlindungi dari pergaulan bebas"
+            - Para pengajar yang berkompeten di bidangnya, lulusan ma'had dan perguruan tinggi Islam
+          # Upload image to `assets/media/` and reference the filename here
+          image: build-website.png
+          button:
+            text: Get Started
+            url: #features
+          # Upload image to `assets/media/` and reference the filename here
+        - title: Large Community
+          text: Join our large community on Discord - ask questions and get live responses
+          feature_icon: bolt
+          features:
+            - "Dedicated support channel"
+            - "3,000+ users on Discord"
+            - "Share your site and get feedback"
+          # Upload image to `assets/media/` and reference the filename here
+          image: coffee.jpg
+          button:
+            text: Join Discord
+            url: https://discord.gg/z8wNYzb
+    design:
+      # Section background color (CSS class)
+      css_class: "bg-gray-100 dark:bg-gray-900"
   - block: testimonials
     content:
       title: ""
